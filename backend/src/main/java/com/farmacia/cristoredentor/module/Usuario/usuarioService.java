@@ -112,7 +112,7 @@ public class usuarioService {
             .orElseThrow(() ->  new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Credenciales inválidas"));
 
         if (!passwordEncoder.matches(dto.getPassword(), u.getPasswordHash()))
-             throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Credenciales inválidas");
+             throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "Contraseña incorrecta");
 
         return u;
     }

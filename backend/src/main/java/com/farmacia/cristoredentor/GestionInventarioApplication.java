@@ -17,7 +17,7 @@ public class GestionInventarioApplication {
         Environment env = ctx.getEnvironment();
         String port = env.getProperty("server.port", "8080");
 
-        log.info("✅ Backend corriendo en: http://localhost:{}", port);
-        log.info("📋 Swagger UI:           http://localhost:{}/swagger-ui/index.html", port);
+        log.info("Backend corriendo en: http://localhost:{}", port);
+        log.info("Swagger UI:           http://localhost:{}/swagger-ui/index.html", port);
     }
 }

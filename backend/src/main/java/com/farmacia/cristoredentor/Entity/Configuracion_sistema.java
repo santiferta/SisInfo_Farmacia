@@ -7,9 +7,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
- @Entity
-  @Table(name = "configuracion_sistema",
-         schema = "farmacia")
+@Entity
+@Table(name = "configuracion_sistema",schema = "farmacia")
 public class Configuracion_sistema {
       @Id
       @Column(name = "clave", nullable = false)
