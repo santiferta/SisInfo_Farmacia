@@ -4,7 +4,6 @@ import com.farmacia.cristoredentor.Entity.Usuario.UserRole;
 
 import jakarta.validation.constraints.Email;
 
-
 public class crearUsuarioDto {
     
     private String nombreCompleto;
