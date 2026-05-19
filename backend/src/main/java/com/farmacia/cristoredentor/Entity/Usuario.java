@@ -81,6 +81,10 @@ import jakarta.validation.constraints.Email;
         this.nombreCompleto = nombreCompleto;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getPasswordHash() {
         return passwordHash;
     }
