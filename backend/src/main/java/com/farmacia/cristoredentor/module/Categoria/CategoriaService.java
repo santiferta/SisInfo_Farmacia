@@ -50,7 +50,7 @@ public class CategoriaService {
                 .toList();
     }
 
-    
+        
     public CategoriaResponseDTO getById(Long id) {
 
         Categoria categoria = repository.findById(id)
